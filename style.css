@@ -1,0 +1,52 @@
+
+body{
+    margin: 0px;
+    background-size: cover;
+    background-image: url("aaron-blanco-tejedor-270469-unsplash.jpg");
+    height: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgba(229, 250, 246,0.7);
+}
+
+.name{
+    text-align: center;
+    top: 50%;
+    font-size: 3em;
+    color: #E48E38;
+}
+
+.btn{
+    text-align: center;
+    margin-top: 100px;
+}
+.prana{
+    border: 1px solid #BBF05A;
+    border-radius: 10px;
+    background-color: rgba(204, 241, 110, 0.6);
+    color: white;
+    font-size: 2em;
+    padding: 10px
+}
+
+.prana:hover{
+    background-color: rgba(204, 241, 110, 1);
+    cursor: pointer;
+}
+
+.name p span{
+    color: blue;
+}
+
+.name p{
+    color: black;
+    background-color: rgba(242,242,100,0.3);
+    width: fit-content;
+    margin: auto;
+}
